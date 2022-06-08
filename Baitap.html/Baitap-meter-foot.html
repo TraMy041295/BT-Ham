@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="foot" type="text">
+    <button onclick="footToMeter() " >footToMeter</button>
+    <button onclick="meterToFoot()" >meterToFoot</button>
+    <p id="result" ></p>
+</body>
+    <script>
+        function footToMeter(){
+            let number = document.getElementById("foot").value
+            let result = ""
+            result = number * 0.305
+            document.getElementById("result").innerHTML = "footToMeter : " + result
+        }
+        function meterToFoot(){
+            let number = document.getElementById("foot").value
+            let result = ""
+            result = number * 3.279
+            document.getElementById("result").innerHTML = "meterToFoot : " + result
+        }
+    </script>
+</html>

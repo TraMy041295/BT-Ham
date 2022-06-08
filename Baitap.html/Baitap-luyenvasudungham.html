@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+    <script>
+        // Bai1 - cách 1
+        // function Bai1(num1 , num2) {
+        //     let sum = ""
+        //     if(num1 > num2){
+        //         return true
+        //     }else{
+        //         return false
+        //     }
+        // }
+        // function checkBai1 (num1 , num2){
+        //     if (Bai1(num1 , num2)){
+        //         alert("Good luck !! ")
+        //     }else {
+        //         sum = num1 + num2
+        //         document.write("tổng 2 số là :" + sum)
+        //     }
+        // }
+        // checkBai1(7,5);
+         // Bai1 - cách 2
+        //  function checknum(){
+        //  let num1 = +(prompt(" Nhập vào số thứ nhất"));
+        //  let num2 = +(prompt("nhập vào số thứ 2"));
+        //  let sum = ""
+        //     if(num1 > num2){
+        //         alert("Good luck")
+        //     }else{
+        //         sum = num1 + num2
+        //         document.write(sum)
+        //     }
+        //     }
+        //     checknum()
+        // Bài 3
+        // function mathPow(num){
+        //     // let num = prompt("Nhập vào 1 số bất kỳ")
+        //     let result = ""
+        //     result = Math.pow(num,2);
+        //     alert("bình phương của "+ num + " là :" + result);
+        // }
+        // mathPow(20);
+        // Bài 4
+            // function circle(R){
+            //     let area = (Math.pow(R,2)*Math.PI).toFixed(2)
+            //     let peri = (2 * R * Math.PI).toFixed(2)
+            //     alert("diện tích hình tròn là : " + area + " chu vi hình tròn là :" + peri )
+            // }
+            // circle(3)
+            // Bài 5
+        //     function giaiThua(num){
+        //         let result = 1
+        //         for( let i = 2 ; i <= num ; i++){
+        //             result *= i
+        //         }
+        //         alert(" giai thừa của " + num + " là "+ result);
+        //     }
+        //    giaiThua(prompt("nhập vào 1 số bất kỳ"));
+        //    Bài 6
+            // function checkNum(){
+            //     let num = prompt(" Hãy nhập vào 1 ký tự bất kỳ")
+            //     alert(!isNaN(num))
+            // }
+            // checkNum()
+            // Bài 7
+        //     function minMax(){
+        //         let a = +(prompt("hãy nhập vào số thứ nhất "));
+        //         let b = +(prompt("hãy nhập vào số thứ hai "));
+        //         let c = +(prompt("hãy nhập vào số thứ ba "));
+        //         let min = 0
+        //         if (a < b && a < c ){
+        //             min = a ;
+        //         }else if (b < c){
+        //             min = b
+        //         }else{
+        //             min = c
+        //     }
+        //     alert("số nhỏ nhất là : " + min);
+        // }
+        // minMax()
+            // Bài 8
+            function checkNum(){
+                let num = +(prompt ("Nhập vào 1 số bất kỳ "));
+                if(num > 0 && num % 1 == 0){
+                    alert(num + " là số nguyên dương");
+                }else{
+                    alert(num + " không là số nguyên dương")
+                }
+            }
+           
+            checkNum();
+    </script>
+</html>
